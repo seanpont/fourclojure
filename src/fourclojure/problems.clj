@@ -1,3 +1,4 @@
+(ns fourclojure.problems)
 
 (defn p1
   "
@@ -6,7 +7,7 @@
   Difficulty: Elementary
   "
   []
-  (let [__ nil]
+  (let [__ =]
     (assert (= __ true))))
 
 (defn p2
@@ -59,7 +60,9 @@
   "
   []
   (let [__ nil]
-    (assert (= [__] (list :a :b :c) (vec '(:a :b :c)) (vector :a :b :c)))))
+    (assert (= [__] (list :a :b :c)
+               (vec '(:a :b :c))
+               (vector :a :b :c)))))
 
 (defn p7
   "
